@@ -1,0 +1,8 @@
+Configuration,Val Acc,Clean Test,Shifted Test
+No augmentation,50.67 ± 3.09,41.94 ± 1.45,18.33 ± 0.75
+"Geometric only (crop, flip, rotation)",40.67 ± 0.94,37.32 ± 2.46,19.09 ± 0.33
+"Photometric only (color jitter, blur, noise)",50.33 ± 1.25,37.39 ± 1.29,18.20 ± 1.10
+Geometric + photometric,43.33 ± 2.36,32.90 ± 2.18,19.46 ± 1.01
++ Cutout / Random Erasing,39.00 ± 1.63,33.53 ± 0.02,20.11 ± 0.22
++ Mixup/CutMix + label smoothing,36.67 ± 1.25,28.19 ± 1.90,18.73 ± 1.71
+Final model,35.33 ± 2.05,30.15 ± 0.58,19.71 ± 0.24
